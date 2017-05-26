@@ -1,0 +1,1 @@
+This is a upload created in javascript, with image rotation and deleted where the client can view the image before be upload, this Upload working in front-end and send the images in format base64 to server.
