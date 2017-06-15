@@ -4,7 +4,7 @@ $img = $_POST['imgmiUp']; // Your data 'data:image/png;base64,AAAFBfj42Pj4';
 $img = str_replace('data:image/jpeg;base64,', '', $img);
 $img = str_replace(' ', '+', $img);
 $data = base64_decode($img);
-file_put_contents('uploaded/image.jpg', $data);
+file_put_contents('image.jpg', $data);
 ?>
 
 <html>
